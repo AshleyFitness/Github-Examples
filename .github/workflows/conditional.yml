@@ -1,0 +1,18 @@
+name: workflow-conditionelle
+
+on: [push]
+
+jobs:
+  hello-world:
+    if: github.repository == 'octo-org/octo-repo-prod'
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Hello, World!"
+        run:  'echo "Hello, World!"'
+  fly-me-to-the-moon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Fly me to the moon"
+        run: echo "And let me see among the stars..."
+
+    
