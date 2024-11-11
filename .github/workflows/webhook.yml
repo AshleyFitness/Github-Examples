@@ -1,4 +1,4 @@
-name: "Webhook Event example"
+name: "Workflow Duster Wehbook"
 
 on:
   repository_dispatch:
