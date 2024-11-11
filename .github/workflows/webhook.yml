@@ -1,9 +1,9 @@
-name: "Workflow Duster Wehbook"
+name: "Workflow Duster Webhook" 
 
 on:
   repository_dispatch:
     types:
-      - webhook
+      - webhook 
 
 jobs:
   respond-to-dispatch:
